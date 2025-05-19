@@ -32,4 +32,45 @@ Example:
 ---
 
 ## 📂 Project Structure
+├── spam_filter.cpp # Main application source code
+├── final.csv # Transposed CSV file with word frequencies
+├── README.md # This file
+├── .gitignore # Ignores object files and binaries
+
+
+## 🛠️ Build & Run Instructions (Linux)
+
+### 🔧 Prerequisites
+
+- GTK 3 (`libgtk-3-dev`)
+- g++ or any C++17-compatible compiler
+
+### 📦 Install GTK on Ubuntu/Debian:
+```bash
+sudo apt-get update
+sudo apt-get install libgtk-3-dev
+
+
+🚀 Compile and Run:
+g++ spam_filter.cpp -o spam_classifier `pkg-config --cflags --libs gtk+-3.0`
+./spam_classifier
+
+📁 CSV Format
+"Word1","Word2","Word3",...
+"SpamFreq1","SpamFreq2","SpamFreq3",...
+"HamFreq1","HamFreq2","HamFreq3",...
+
+🤝 Acknowledgements
+GTK+3 for GUI components
+Standard C++ STL
+Data Structure inspiration from coursework on hashing
+
+📜 License
+This project is for educational purposes and is open to modification. Feel free to use it with credit.
+
+✍️ Author
+Kunal Jangid
+B.Tech, Metallurgical & Materials Engineering
+IIT Jodhpur
+
 
