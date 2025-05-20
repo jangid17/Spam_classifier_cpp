@@ -23,11 +23,11 @@ This project implements a **spam email classifier** using **hash maps** (chainin
 ---
 
 ## 🖥️ GUI Screenshot
-
-> _Include a screenshot here if available (you can add one to the repo later)._  
+ 
 Example:
 
-![Screenshot](assets/screenshot.png)
+![4](https://github.com/user-attachments/assets/c6a91369-fb50-404a-ba14-62a1a4be6870)
+
 
 ---
 
